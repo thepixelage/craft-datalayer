@@ -4,4 +4,4 @@ pipelines:
   default:
     - step:
         script:
-          - git push --mirror git@github.com:hepixelage/craft-datalayer.git
+          - git push --mirror git@github.com:thepixelage/craft-datalayer.git
