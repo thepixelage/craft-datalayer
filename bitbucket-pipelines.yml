@@ -1,7 +1,8 @@
 clone:
   depth: full
 pipelines:
-  default:
-    - step:
-        script:
-          - git push --mirror git@github.com:thepixelage/craft-datalayer.git
+  custom:
+    sync-to-github:
+      - step:
+          script:
+            - git push --mirror git@github.com:thepixelage/craft-datalayer.git
